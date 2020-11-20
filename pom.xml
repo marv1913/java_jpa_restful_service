@@ -7,7 +7,7 @@
 
 	<!-- parent pom -->
     <!-- TeamName in allen poms, Verzeichnisse, .java-Files anpassen -->
-    <groupId>htwb.ai.MarvEn</groupId>
+    <groupId>marv</groupId>
     <artifactId>modules</artifactId>
     <packaging>pom</packaging>
 	<version>1.0</version>

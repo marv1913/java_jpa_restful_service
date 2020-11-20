@@ -13,7 +13,7 @@ RUN ls
 ENV SONGS_PASSWORD=admin
 COPY --from=maven_builder /app/songsservlet/target /home
 RUN cd /home && ls
-RUN cp /home/songsservlet-MarvEn.war /usr/local/tomcat/webapps
+RUN cp /home/songsservlet.war /usr/local/tomcat/webapps
 
 
 # start tomcat
